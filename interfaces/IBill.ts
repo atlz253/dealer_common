@@ -1,10 +1,10 @@
 interface IBill {
     ownerName: string,
-    billNumber: number,
+    billNumber: string,
     bankName: string,
-    correspondentBill: number,
-    BIC: number,
-    INN: number
+    correspondentBill: string,
+    BIC: string,
+    INN: string
 }
 
 export default IBill;
