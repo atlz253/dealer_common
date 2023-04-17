@@ -1,6 +1,6 @@
 interface IAuth {
-    status: string,
-    accessToken?: string
+    accessToken?: string,
+    role?: string
 }
 
 export default IAuth;
