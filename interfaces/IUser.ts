@@ -1,6 +1,6 @@
 import IBaseUser from "./IBaseUser";
 
-export enum UserRoles {
+export const enum UserRoles {
     diler,
     admin
 }
