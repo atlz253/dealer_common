@@ -1,6 +1,6 @@
-interface IResponse<T> {
+interface IResponse<T = void> {
     status: number,
-    data: T
+    data?: T
 }
 
 export default IResponse;
