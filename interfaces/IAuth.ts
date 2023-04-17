@@ -1,10 +1,5 @@
-export const enum AuthStatus {
-    unauthorized,
-    authorized
-}
-
 interface IAuth {
-    status: AuthStatus,
+    status: string,
     accessToken?: string
 }
 
