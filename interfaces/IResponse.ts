@@ -1,5 +1,6 @@
-interface IResponse {
-    status: number
+interface IResponse<T> {
+    status: number,
+    data: T
 }
 
 export default IResponse;
