@@ -1,5 +1,6 @@
-interface IBaseProduct {
-    id: number,
+import ID from "./ID";
+
+interface IBaseProduct extends ID {
     name: string,
     category: string,
     quantity: number,

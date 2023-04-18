@@ -1,5 +1,6 @@
-interface IBaseContract {
-    id: number,
+import ID from "./ID";
+
+interface IBaseContract extends ID {
     seller: string,
     buyer: string,
     price: number,
