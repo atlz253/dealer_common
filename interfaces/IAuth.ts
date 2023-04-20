@@ -1,6 +1,6 @@
 interface IAuth {
     accessToken?: string,
-    role?: string
+    type?: string
 }
 
 export default IAuth;
