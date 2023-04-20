@@ -1,7 +1,8 @@
 import IBaseUser from "./IBaseUser";
 
 interface IUser extends IBaseUser {
-    role: string
+    birthday: Date,
+    password: string
 }
 
 export default IUser;
