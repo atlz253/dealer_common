@@ -1,7 +1,7 @@
 import IBaseUser from "./IBaseUser";
 
 interface IUser extends IBaseUser {
-    birthday: string,
+    birthday: string | null,
     password: string
 }
 
