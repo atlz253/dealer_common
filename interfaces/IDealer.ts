@@ -1,10 +1,10 @@
-import IAuthorization from "./IAuthorization";
 import ID from "./ID";
 
 interface IDealer extends ID {
     firstName: string,
     employmentDate: string,
-    authorization?: IAuthorization
+    login?: string,
+    password?: string
 }
 
 export default IDealer;
