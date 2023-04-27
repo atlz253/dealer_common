@@ -1,10 +1,7 @@
-import ID from "./ID";
+import IUser from "./IUser";
 
-interface IDealer extends ID {
-    firstName: string,
+interface IDealer extends IUser {
     employmentDate: string,
-    login?: string,
-    password?: string
 }
 
 export default IDealer;
