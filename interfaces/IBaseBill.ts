@@ -1,8 +1,7 @@
-import ID from "./ID";
+import IBillNumber from "./IBillNumber";
 
-interface IBaseBill extends ID {
+interface IBaseBill extends IBillNumber {
     ownerName: string,
-    billNumber: string,
     bankName: string,
     expireDate: string
 }
