@@ -1,9 +1,8 @@
-import ID from "./ID";
+import IProductQuantity from "./IProductQuantity";
 
-interface IBaseProduct extends ID {
+interface IBaseProduct extends IProductQuantity {
     name: string,
     category: string,
-    quantity: number,
     price: number
 }
 
