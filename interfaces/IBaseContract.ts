@@ -1,8 +1,8 @@
 import ID from "./ID";
 
 interface IBaseContract extends ID {
-    seller: string,
-    buyer: string,
+    sellerName?: string,
+    buyerName?: string,
     price: number,
     created: string
 }
