@@ -1,7 +1,6 @@
-import ID from "./ID";
+import IName from "./IName";
 
-interface IBaseClient extends ID {
-    name: string,
+interface IBaseClient extends IName {
     phone: string,
     added: string
 }
