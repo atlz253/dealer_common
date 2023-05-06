@@ -1,10 +1,10 @@
+import IContractProduct from "./IContractProduct";
 import ID from "./ID";
-import IProductQuantity from "./IProductQuantity";
 
 interface INewContract extends ID {
     sellerBillID: number,
     buyerBillID: number,
-    products: IProductQuantity[]
+    products: IContractProduct[]
 }
 
 export default INewContract;
