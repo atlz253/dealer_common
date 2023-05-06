@@ -1,6 +1,6 @@
 {
   "name": "audio_diler_common",
-  "version": "1.4.12",
+  "version": "1.4.13",
   "description": "",
   "main": "index.js",
   "scripts": {
