@@ -1,10 +1,11 @@
 import IDeliveryDays from "./IDeliveryDays";
-import IProductQuantity from "./IProductQuantity";
+import ID from "./ID";
 
-interface IBaseProduct extends IProductQuantity, Partial<IDeliveryDays> {
+interface IBaseProduct extends ID, Partial<IDeliveryDays> {
     name: string,
     category: string,
     price: number,
+    quantity: number,
     deliveryDate?: string
 }
 
