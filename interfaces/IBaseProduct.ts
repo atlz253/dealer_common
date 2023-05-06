@@ -4,7 +4,8 @@ interface IBaseProduct extends IProductQuantity {
     name: string,
     category: string,
     price: number,
-    deliveryDate?: string
+    deliveryDate?: string,
+    deliveryDays?: number
 }
 
 export default IBaseProduct;
