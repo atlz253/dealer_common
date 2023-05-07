@@ -4,7 +4,8 @@ interface IBaseContract extends ID {
     sellerName?: string,
     buyerName?: string,
     price: number,
-    created: string
+    created: string,
+    type: string
 }
 
 export default IBaseContract;
